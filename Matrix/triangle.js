@@ -1,8 +1,5 @@
-/**
- * @param {number[][]} triangle
- * @return {number}
- */
-var minimumTotal = function (triangle) {
+
+const minimumTotal = (triangle) => {
     const dpTriangle = [...triangle];
 
     for (let i = dpTriangle.length - 2; i >= 0; i--) {
